@@ -6,6 +6,11 @@ BASE_HOA = {
 
 
 def add_character(show, name)
+  :show => [Jerry, Hamster, NY]
+  :name => [Tom, Boots, Garfield]
+  
+  BASE_HOA[:show]
+  
   # Write your implementation here
   # Should return the array of the 'show' argument
 end
